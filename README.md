@@ -1,2 +1,2 @@
 # Cryptography
-Cryptography algorithm such as AES, RSA
+Cryptography algorithm such as AES, RSA.
