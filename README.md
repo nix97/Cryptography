@@ -7,6 +7,8 @@ Using lib : --> using System.Security.Cryptography;
 
 ``` c#
 using System.Security.Cryptography;
+aes.GenerateKey();
+aes.GenerateIV();
 
 ```
 
