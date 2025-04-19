@@ -11,10 +11,10 @@ aes.GenerateKey();
 aes.GenerateIV();
 ```
 
-## 2. Nix Hashing(use SHA256, SHA512,MD5 algorithm)
+## 2. Nix Hashing(use SHA256, SHA512, MD5 algorithm)
 
 This app to hashing text and file, as the result we got hashing text.<br>
--SHA256 is 256 bits(32 bytes) with hexadecimal characters is 64.
+-SHA256 is 256 bits(32 bytes) with hexadecimal characters is 64.<br>
 -SHA512 is string with 128 hexadecimal character.<br>
 -MD5 got 32 hexadecimal char.<br>
 Using lib : --> using System.Security.Cryptography;
