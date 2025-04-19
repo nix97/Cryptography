@@ -1,0 +1,10 @@
+E:\234\Data 2012\C#\NixHashing\bin\Debug\NixHashing.exe.config
+E:\234\Data 2012\C#\NixHashing\bin\Debug\NixHashing.exe
+E:\234\Data 2012\C#\NixHashing\bin\Debug\NixHashing.pdb
+E:\234\Data 2012\C#\NixHashing\obj\Debug\NixHashing.csproj.AssemblyReference.cache
+E:\234\Data 2012\C#\NixHashing\obj\Debug\NixHashing.Form1.resources
+E:\234\Data 2012\C#\NixHashing\obj\Debug\NixHashing.Properties.Resources.resources
+E:\234\Data 2012\C#\NixHashing\obj\Debug\NixHashing.csproj.GenerateResource.cache
+E:\234\Data 2012\C#\NixHashing\obj\Debug\NixHashing.csproj.CoreCompileInputs.cache
+E:\234\Data 2012\C#\NixHashing\obj\Debug\NixHashing.exe
+E:\234\Data 2012\C#\NixHashing\obj\Debug\NixHashing.pdb
