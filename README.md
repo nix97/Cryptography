@@ -1,5 +1,3 @@
-# Cryptography
-
 ![License](https://img.shields.io/github/license/nix97/Cryptography)
 ![Issues](https://img.shields.io/github/issues/nix97/Cryptography)
 ![Stars](https://img.shields.io/github/stars/nix97/Cryptography)
@@ -8,6 +6,8 @@
 ![RSA](https://img.shields.io/badge/Algorithm-RSA-green)
 ![SHA](https://img.shields.io/badge/Hash-SHA256-orange)
 ![Padding](https://img.shields.io/badge/Detail-PKCS7%20Padding-lightgrey)
+
+# Cryptography
 
 ## 1. AES(Advance Encryption Standard)
 
