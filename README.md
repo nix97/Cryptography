@@ -2,6 +2,7 @@
 ![Issues](https://img.shields.io/github/issues/nix97/Cryptography)
 ![Stars](https://img.shields.io/github/stars/nix97/Cryptography)
 ![Language](https://img.shields.io/badge/Language-C%23-239120?logo=c-sharp&logoColor=white)
+![Pascal](https://img.shields.io/badge/language-Pascal-orange?logo=pascal)
 ![AES](https://img.shields.io/badge/Algorithm-AES-blue)
 ![RSA](https://img.shields.io/badge/Algorithm-RSA-green)
 ![SHA](https://img.shields.io/badge/Hash-SHA256-orange)
