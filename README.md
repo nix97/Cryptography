@@ -6,7 +6,6 @@
 ![AES](https://img.shields.io/badge/Algorithm-AES-blue)
 ![RSA](https://img.shields.io/badge/Algorithm-RSA-green)
 ![SHA](https://img.shields.io/badge/Hash-SHA256-orange)
-![Padding](https://img.shields.io/badge/Detail-PKCS7%20Padding-lightgrey)
 
 # Cryptography
 
