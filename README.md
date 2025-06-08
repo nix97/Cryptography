@@ -34,3 +34,6 @@ Using lib : --> using System.Security.Cryptography;
 using System.Security.Cryptography;
 ```
 
+## 3. RSA Pascal
+
+Implementation of RSA algorithm using Pascal (text base/terminal).
