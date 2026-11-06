@@ -58,10 +58,10 @@ where p, q is prime number.
 
 SLIMMING BRUTE FORCE :
 
-  The idea is to find p first as one of the prime factors, then get q using q=n/p.
+  The idea is to find p first as one of the prime factors, then get q using q=n/p.\
 The method as follows :
--On this app, the lower boundary required a minimum 3 digits decimal.
--On a 3 digit or higher prime number, the last digit must be 1 or 3 or 7 or 9. From this possibility, the last digit of n, can be used to find p.
+-On this app, the lower boundary required a minimum 3 digits decimal.\
+-On a 3 digit or higher prime number, the last digit must be 1 or 3 or 7 or 9. From this possibility, the last digit of n, can be used to find p.\
 -First find a length digit of n(e.g 11 digits).
 -Length digit of p or q(same length digits usually).
 Find digit p using q=ceil(digit n/2),  e.g, ceil(11/2)=6.
