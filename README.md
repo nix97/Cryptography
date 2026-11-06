@@ -57,7 +57,7 @@ k:integer
 ### $m^e\ mod\ n$
 m:integer
 ### Decryption:
-### c^d mod n
+### $c^d\ mod n$
 c:integer\
 The public keys is (n,e)<br>
 The private key represent as (n,d) and p, q is secret also.
