@@ -38,6 +38,48 @@ using System.Security.Cryptography;
 
 Implementation of RSA algorithm using Pascal (text base/terminal).
 
-## 3. RSA Lazarus (GUI)
+## 4. RSA Lazarus (GUI)
 
-Implementation of RSA algorithm using Lazarus.
+Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
+
+RSA :
+
+  On the RSA as asymmetric cryptography uses two different keys, e as public key/encrypt key(not secret) & d as private key/decrypt key(secret).
+Formula:
+-p.q=n 
+where p, q is prime number.
+ n is not secret(public), otherwise p, q is secret(private), here p & q hidden on n. If we can reveal p, q from n, we get d as a private key.
+- ø(n)=(p-1)(q-1)
+- d=(1+k ø(n))/e   
+ where k is integer from 1,2,3,...... till fulfill
+ equation.
+ 
+
+SLIMMING BRUTE FORCE :
+
+  The idea is to find p first as one of the prime factors, then get q using q=n/p.
+The method as follows :
+-On this app, the lower boundary required a minimum 3 digits decimal.
+-On a 3 digit or higher prime number, the last digit must be 1 or 3 or 7 or 9. From this possibility, the last digit of n, can be used to find p.
+-First find a length digit of n(e.g 11 digits).
+-Length digit of p or q(same length digits usually).
+Find digit p using q=ceil(digit n/2),  e.g, ceil(11/2)=6.
+-Last digit of n can determine the last digit of p.
+-Probability:
+-If n=xxxxx1 (p=xx1, q=xx1)
+ or (p=xx3, q=xx7, because 3*7=21, last digit=1 like n),
+ so last digit p,q is 1, 3 ,7
+-The same way if last digit n is 3 or 7
+ then last digit p, q is 1, 3 ,7, 9
+-So if last digit n is 9
+ must be last digit p, q is 1, 3 , 9
+-This probability is called the "Slimming Brute Force" where it covers all possibilities to find p and so q but eliminate non candidates prime.
+-After length digits of p or q found, we find all prime numbers on [a,b], where a= 10^(m-1), b=(10^m)-1, e.g m=3, so [100,999] with assume p, q got same length digit that usually used.
+If two factors have different length digits then we use the 2nd scenario where we decrease a as the left boundary to find a candidate of p where a= 10^(m-1-g), g start from 1. Now a=10(2 digit), [a,b] becomes [10,99],and so on.  
+-We can use the Sieve of Atkin algorithm to find all prime numbers on a given interval.
+-We try the first scenario with assume p, q got the same length digit, and try others scenarios till found p(automatically found q also). We got all candidates for p.
+-Check the right candidate use: if (n mod p=0) then p found. So q=n/p.
+-We already have e, p, q.
+-d=(1+k phi(n))/e   ; we loop k as integer till satisfied with the equation(start with 1).
+-Finally we got d as our private key.
+ 
