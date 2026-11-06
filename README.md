@@ -47,6 +47,19 @@ Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
 
   On the RSA as asymmetric cryptography uses two different keys, e as public key/encrypt key(not secret) & d as private key/decrypt key(secret).\
 ### Formula:
+
+\[ p . q = n \]
+ p, q is Prime number
+\[\phi(n)=(p-1)(q-1)\]
+\[d=\frac{1+k\phi(n)}{e}\]  k:integer<br><br>
+<b>Encryption:</b><br>
+\[m^e \, mod \,n \:; \:\:m:integer \]<br>
+<b>Decryption:</b><br>
+\[c^d \, mod \,n \:; \:\:c:integer \]<br>
+   
+The public keys is (n,e)<br>
+The private key represent as (n,d) and p, q kept secret also.
+<br>So the parameters: e,n is public and d,p,q is private(secret).
 -p.q=n 
 where p, q is prime number.
  n is not secret(public), otherwise p, q is secret(private), here p & q hidden on n. If we can reveal p, q from n, we get d as a private key.
