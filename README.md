@@ -52,8 +52,7 @@ where p, q is prime number.
  n is not secret(public), otherwise p, q is secret(private), here p & q hidden on n. If we can reveal p, q from n, we get d as a private key.
 - ø(n)=(p-1)(q-1)
 - d=(1+k ø(n))/e   
- where k is integer from 1,2,3,...... till fulfill
- equation.\
+ where k is integer from 1,2,3,...... till fulfill equation.\
  
 
 ### SLIMMING BRUTE FORCE :
