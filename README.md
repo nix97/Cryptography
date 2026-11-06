@@ -54,7 +54,8 @@ p, q is prime number
 ### $d=\frac{1+k \phi(n)}{e}$ 
 k:integer
 ### Encryption:
-### $ \m^{e} \, mod \,n \:$; \:\:m:integer$
+### $m^e &ensp mod n$
+m:integer
 <b>Decryption:</b><br>
 \[c^d \, mod \,n \:; \:\:c:integer \]<br>
    
