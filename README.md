@@ -50,8 +50,9 @@ Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
 
 \[ p . q = n \]
  p, q is Prime number
-\[\phi(n)=(p-1)(q-1)\]
-\[d=\frac{1+k\phi(n)}{e}\]  k:integer<br><br>
+ $\frac{\partial^2 U(x,t)}{\partial t^2}=c^2\frac{\partial^2 U(x,t)}{\partial x^2}$
+$\phi(n)=(p-1)(q-1)$\
+$ d=\frac{1+k\phi(n)}{e} $ k:integer<br><br>
 <b>Encryption:</b><br>
 \[m^e \, mod \,n \:; \:\:m:integer \]<br>
 <b>Decryption:</b><br>
