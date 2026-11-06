@@ -45,8 +45,8 @@ Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
 
 RSA :
 
-  On the RSA as asymmetric cryptography uses two different keys, e as public key/encrypt key(not secret) & d as private key/decrypt key(secret).
-Formula:
+  On the RSA as asymmetric cryptography uses two different keys, e as public key/encrypt key(not secret) & d as private key/decrypt key(secret).\
+Formula:\
 -p.q=n 
 where p, q is prime number.
  n is not secret(public), otherwise p, q is secret(private), here p & q hidden on n. If we can reveal p, q from n, we get d as a private key.
