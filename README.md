@@ -12,7 +12,7 @@
 
 ## 1. AES(Advance Encryption Standard)
 
-This app is about Cryptography using AES(Advanced Encryption Standard) algorithm.<br>
+This app is about Cryptography using AES(Advanced Encryption Standard) algorithm, build in Microsoft Visual Studio 2022.<br>
 The Key, IV(Initialization Vector) and Ciphertext in Base64 number system.<br>
 The key lengths or key size is 128 bit(AES-128), 192 bit(AES-192) and 256 bit(AES-256).<br>
 Using lib : --> using System.Security.Cryptography;
@@ -25,7 +25,7 @@ aes.GenerateIV();
 
 ## 2. Nix Hashing(use SHA256, SHA512, MD5 algorithm)
 
-This app to hashing text and file, as the result we got hashing text.<br>
+This app to hashing text and file, as the result we got hashing text. Build in Microsoft Visual Studio 2022<br>
 -SHA256 is 256 bits(32 bytes) with hexadecimal characters is 64.<br>
 -SHA512 is string with 128 hexadecimal character.<br>
 -MD5 got 32 hexadecimal char.<br>
@@ -43,10 +43,10 @@ Implementation of RSA algorithm using Pascal (text base/terminal).
 
 Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
 
-RSA :
+# RSA :
 
   On the RSA as asymmetric cryptography uses two different keys, e as public key/encrypt key(not secret) & d as private key/decrypt key(secret).\
-Formula:\
+# Formula:\
 -p.q=n 
 where p, q is prime number.
  n is not secret(public), otherwise p, q is secret(private), here p & q hidden on n. If we can reveal p, q from n, we get d as a private key.
@@ -56,7 +56,7 @@ where p, q is prime number.
  equation.
  
 
-SLIMMING BRUTE FORCE :
+# SLIMMING BRUTE FORCE :
 
   The idea is to find p first as one of the prime factors, then get q using q=n/p.\
 The method as follows :
