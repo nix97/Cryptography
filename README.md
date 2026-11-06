@@ -37,3 +37,7 @@ using System.Security.Cryptography;
 ## 3. RSA Pascal
 
 Implementation of RSA algorithm using Pascal (text base/terminal).
+
+## 3. RSA Lazarus (GUI)
+
+Implementation of RSA algorithm using Lazarus.
