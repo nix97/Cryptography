@@ -60,7 +60,7 @@ m:integer
 ### c^d mod n
 c:integer\
 The public keys is (n,e)<br>
-The private key represent as (n,d) and p, q is secret also.\
+The private key represent as (n,d) and p, q is secret also.
  
 ### SLIMMING BRUTE FORCE :
 
