@@ -43,7 +43,7 @@ Implementation of RSA algorithm using Pascal (text base/terminal).
 
 Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
 
-# RSA :
+### RSA :
 
   On the RSA as asymmetric cryptography uses two different keys, e as public key/encrypt key(not secret) & d as private key/decrypt key(secret).\
 # Formula:\
@@ -53,10 +53,10 @@ where p, q is prime number.
 - ø(n)=(p-1)(q-1)
 - d=(1+k ø(n))/e   
  where k is integer from 1,2,3,...... till fulfill
- equation.
+ equation.\
  
 
-# SLIMMING BRUTE FORCE :
+### SLIMMING BRUTE FORCE :
 
   The idea is to find p first as one of the prime factors, then get q using q=n/p.\
 The method as follows :
