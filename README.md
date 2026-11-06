@@ -54,14 +54,14 @@ p, q is prime number
 ### $d=\frac{1+k \phi(n)}{e}$ 
 k:integer
 ### Encryption:
-### $m^e &ensp mod n$
+### m^e mod n
 m:integer
-<b>Decryption:</b><br>
-\[c^d \, mod \,n \:; \:\:c:integer \]<br>
-   
+### Decryption:
+### c^d mod n
+c:integer\
 The public keys is (n,e)<br>
-The private key represent as (n,d) and p, q kept secret also.
-<br>So the parameters: e,n is public and d,p,q is private(secret).
+The private key represent as (n,d) and p, q is secret also.\
+<br>So the parameters: e,n is public and d,p,q is private(secret).\
 -p.q=n 
 where p, q is prime number.
  n is not secret(public), otherwise p, q is secret(private), here p & q hidden on n. If we can reveal p, q from n, we get d as a private key.
