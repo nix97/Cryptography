@@ -77,7 +77,7 @@ Find digit p using q=ceil(digit n/2),  e.g, ceil(11/2)=6.
  or (p=xx3, q=xx7, because 3*7=21, last digit=1 like n), so last digit p,q is 1, 3 ,7.
 - The same way if last digit n is 3 or 7
  then last digit p, q is 1, 3 ,7, 9.
--S o if last digit n is 9
+S o if last digit n is 9
  must be last digit p, q is 1, 3 , 9.
 - This method is called the "Slimming Brute Force", where it covers all possibilities to find p and so q but eliminate non candidates prime.
 - After length digits of p or q found, we find all prime numbers on [a,b], where a= 10^(m-1), b=(10^m)-1, e.g m=3, so [100,999] with assume p, q got same length digit that usually used.
