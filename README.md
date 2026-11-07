@@ -50,7 +50,10 @@ Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
 
 ### p . q = n ;
 p, q is prime number
-### $$\phi(n)=(p-1)(q-1)$$
+### 
+$$
+\phi(n)=(p-1)(q-1)
+$$
 ### $d=\frac{1+k\ \phi(n)}{e}$ 
 k:integer
 ### Encryption:
