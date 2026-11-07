@@ -70,7 +70,7 @@ The method as follows :
 - On a 3 digit or higher prime number, the last digit must be 1 or 3 or 7 or 9. From this possibility, the last digit of n, can be used to find p.
 - First find a length digit of n(e.g 11 digits).
 - Length digit of p or q(same length digits usually).
-Find digit p using q=ceil(digit n/2),  e.g, ceil(11/2)=6.\
+Find digit p using q=ceil(digit n/2),  e.g, ceil(11/2)=6.
 - Last digit of n can determine the last digit of p.
 - Probability:
 - If n=xxxxx1 (p=xx1, q=xx1)
