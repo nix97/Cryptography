@@ -1,0 +1,8 @@
+object FormFactors: TFormFactors
+  Left = 252
+  Height = 432
+  Top = 127
+  Width = 478
+  Caption = 'FormFactors'
+  LCLVersion = '1.8.0.6'
+end

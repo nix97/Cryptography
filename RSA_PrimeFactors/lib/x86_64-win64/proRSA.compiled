@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="H:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1556502373"/>
+  <Params Value="-MObjFPC -Scghi -O1 -gw3 -gl -WG -l -vewnhibq &quot;-FiE:\234\Data 2012\Lazarus\RSA_PrimeFactors\lib\x86_64-win64&quot; &quot;-FuE:\234\Data 2012\Lazarus\RSA_PrimeFactors\&quot; &quot;-FuE:\234\Data 2012\Lazarus\RSA_PrimeFactors\Icon&quot; -FuH:\lazarus\lcl\units\x86_64-win64\win32 -FuH:\lazarus\lcl\units\x86_64-win64 -FuH:\lazarus\components\freetype\lib\x86_64-win64 -FuH:\lazarus\components\lazutils\lib\x86_64-win64 -FuH:\lazarus\packager\units\x86_64-win64 &quot;-FUE:\234\Data 2012\Lazarus\RSA_PrimeFactors\lib\x86_64-win64\&quot; &quot;-FEE:\234\Data 2012\Lazarus\RSA_PrimeFactors\&quot; &quot;-oE:\234\Data 2012\Lazarus\RSA_PrimeFactors\proRSA.exe&quot; -dLCL -dLCLwin32 proRSA.lpr"/>
+</CONFIG>
