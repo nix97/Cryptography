@@ -67,7 +67,7 @@ The private key represent as (n,d) and p, q is secret also.
  
 ### SLIMMING BRUTE FORCE :
 
-&nbsn The idea is to find p first as one of the prime factors, then get q using q=n/p.\
+   The idea is to find p first as one of the prime factors, then get q using q=n/p.\
 The method as follows :ii
 - On this app, the lower boundary required a minimum 3 digits decimal.
 - Eliminate last digit n is 2 and 5(because there is no two prime numbers if multiply got last digit 2 or 5.
