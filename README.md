@@ -68,23 +68,16 @@ The private key represent as (n,d) and p, q is secret also.
 ### SLIMMING BRUTE FORCE :
 
   The idea is to find p first as one of the prime factors, then get q using q=n/p.\
-The method as follows :
+The method as follows :ii
 - On this app, the lower boundary required a minimum 3 digits decimal.
-- On a 3 digit or higher prime number, the last digit must be 1 or 3 or 7 or 9. From this possibility, the last digit of n, can be used to find p.
+- Eliminate last digit n is 2 and 5(because there is no two prime numbers if multiply got last digit 2 or 5.
+- On a 3 digit or higher of prime number, the last digit must be 1 or 3 or 7 or 9 and p also.
 - First find a length digit of n(e.g 11 digits).
 - Length digit of p or q(same length digits usually).
-Find digit p using q=ceil(digit n/2),  e.g, ceil(11/2)=6.
-- Last digit of n can determine the last digit of p.
-- Probability:
-- If n=xxxxx1 (p=xx1, q=xx1)
- or (p=xx3, q=xx7, because 3*7=21, last digit=1 like n), so last digit p,q is 1, 3 ,7.
-- The same way if last digit n is 3 or 7
- then last digit p, q is 1, 3 ,7, 9.
-S o if last digit n is 9
- must be last digit p, q is 1, 3 , 9.
-- This method is called the "Slimming Brute Force", where it covers all possibilities to find p and so q but eliminate non candidates prime.
-- After length digits of p or q found, we find all prime numbers on [a,b], where a= 10^(m-1), b=(10^m)-1, e.g m=3, so [100,999] with assume p, q got same length digit that usually used.
-If two factors have different length digits then we use the 2nd scenario where we decrease a as the left boundary to find a candidate of p where a= 10^(m-1-g), g start from 1. Now a=10(2 digit), [a,b] becomes [10,99],and so on.  
+- Find digit p using: ceil(digit n/2),  e.g, ceil(11/2)=6 digits.
+- This method is called the "Slimming Brute Force", where it covers all possibilities to find p.
+- After length digits of p or q found, we find all prime numbers(or candidates p) on [a,b], where a= 10^(m-1), b=(10^m)-1, where m is length digit of p. Example m=3, so p on the [100,999] with assume p & q got the same length digit that usually used.
+- If two factors have different length digits then we use the 2nd scenario where we decrease a as the left boundary to find a candidate of p where a= 10^(m-1-g), g start from 1. Now a=10(2 digit), [a,b] becomes [10,99],and so on.  
 - We can use the Sieve of Atkin algorithm to find all prime numbers on a given interval.
 - We try the first scenario with assume p, q got the same length digit(it's usually used, because if one of the factor got shorter digit, easier to broke), and try others scenarios till found p(automatically found q also). We got all candidates for p.
 - Check the right candidate use: if (n mod p)=0 then p found & q found using q=n/p.
