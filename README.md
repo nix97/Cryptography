@@ -67,7 +67,7 @@ The private key represent as (n,d) and p, q is secret also.
    The idea is to find p first as one of the prime factors, then get q using q=n/p.\
 The method as follows :
 - On this app, the lower boundary required a minimum 3 digits decimal.
-- Eliminate last digit n is 2 and 5(because there is no two prime numbers if multiply got last digit 2 or 5.
+- Check n, Eliminate if last digit n is 2 or 5(because there is no composite number as a product of multiply two prime numbers.
 - On a 3 digit or higher of prime number, the last digit must be 1 or 3 or 7 or 9 and so with p.
 - First find a length digits of n(e.g 11 digits).
 - Find digit p using: ceil(digit n/2),  e.g, ceil(11/2)=6 digits.
