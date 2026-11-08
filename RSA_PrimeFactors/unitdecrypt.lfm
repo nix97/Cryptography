@@ -1,0 +1,104 @@
+object FormDecrypt: TFormDecrypt
+  Left = 255
+  Height = 481
+  Top = 226
+  Width = 534
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Decryption'
+  ClientHeight = 481
+  ClientWidth = 534
+  Position = poDesktopCenter
+  LCLVersion = '4.8.0.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 16
+    Width = 89
+    Caption = 'Encrypted text :'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object MemoEncrypt: TMemo
+    Left = 24
+    Height = 138
+    Top = 40
+    Width = 480
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object ButDecrypt: TButton
+    Left = 200
+    Height = 33
+    Top = 201
+    Width = 78
+    Caption = 'Run'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = ButDecryptClick
+  end
+  object MemoDecrypt: TMemo
+    Left = 24
+    Height = 138
+    Top = 320
+    Width = 480
+    ScrollBars = ssBoth
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 200
+    Width = 18
+    Caption = 'n ='
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 15
+    Top = 232
+    Width = 18
+    Caption = 'd ='
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Editn: TEdit
+    Left = 64
+    Height = 23
+    Top = 200
+    Width = 96
+    TabOrder = 3
+  end
+  object Editd: TEdit
+    Left = 64
+    Height = 23
+    Top = 232
+    Width = 96
+    TabOrder = 4
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 15
+    Top = 296
+    Width = 61
+    Caption = 'Clear text :'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ButClear: TButton
+    Left = 304
+    Height = 32
+    Top = 202
+    Width = 78
+    Caption = 'Clear'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = ButClearClick
+  end
+end

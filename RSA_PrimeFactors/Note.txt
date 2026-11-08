@@ -1,0 +1,23 @@
+Notes :
+
+NIX CRYPTOGRAPHY(RSA)
+ 
+-Sourcecode available in Lazarus
+
+-build in Lazarus 4.8 fpc 3.2.2
+
+
+-Download at : https://https://github.com/nix97/Cryptography   (folder RSA_PrimeFactors)
+
+-Feel free to use & modify.
+
+
+Tips:
+
+-To smalling the exe file size, can use strip *.exe (example: strip proRSA.exe) at console.
+
+by Lukas Setiawan Nov 6, 2026 (e-mail:lukassetiawan@yahoo.com)
+
+
+Happy coding coy....
+
