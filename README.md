@@ -71,16 +71,15 @@ The private key represent as (n,d) and p, q is secret also.
 The method as follows :ii
 - On this app, the lower boundary required a minimum 3 digits decimal.
 - Eliminate last digit n is 2 and 5(because there is no two prime numbers if multiply got last digit 2 or 5.
-- On a 3 digit or higher of prime number, the last digit must be 1 or 3 or 7 or 9 and p also.
-- First find a length digit of n(e.g 11 digits).
-- Length digit of p or q(same length digits usually).
+- On a 3 digit or higher of prime number, the last digit must be 1 or 3 or 7 or 9 and so with p.
+- First find a length digits of n(e.g 11 digits).
 - Find digit p using: ceil(digit n/2),  e.g, ceil(11/2)=6 digits.
 - This method is called the "Slimming Brute Force", where it covers all possibilities to find p.
-- After length digits of p or q found, we find all prime numbers(or candidates p) on [a,b], where a= 10^(m-1), b=(10^m)-1, where m is length digit of p. Example m=3, so p on the [100,999] with assume p & q got the same length digit that usually used.
-- If two factors have different length digits then we use the 2nd scenario where we decrease a as the left boundary to find a candidate of p where a= 10^(m-1-g), g start from 1. Now a=10(2 digit), [a,b] becomes [10,99],and so on.  
+- After length digits of p or q found, we find all prime numbers(or candidates p) on [a,b], where a= 10^(m-1), b=(10^m)-1, where m is length digit of p. Example m=3, so p on the [100,999] with assume p & q got the same length digit.
+- If two factors have different length digit then we use the 2nd scenario where we decrease a as the left boundary to find candidates of p where a becomes a= 10^(m-1-g), g start from 1. Now a=10(2 digit), [a,b] becomes [10,99],and so on.  
 - We can use the Sieve of Atkin algorithm to find all prime numbers on a given interval.
-- We try the first scenario with assume p, q got the same length digit(it's usually used, because if one of the factor got shorter digit, easier to broke), and try others scenarios till found p(automatically found q also). We got all candidates for p.
-- Check the right candidate use: if (n mod p)=0 then p found & q found using q=n/p.
+- We try the first scenario with assume p, q got the same length digit(it's usually used, because if one of the factor got shorter digit, easier to brake), and try others scenarios till found p(automatically found q also). We got all candidates for p.
+- Check the right candidate use: if (n mod p)=0 then p found & find q using q=n/p.
 - We already have e, p, q.
-- d=(1+k phi(n))/e   ; we loop k as integer till satisfied with the equation(start with 1).
+- d=(1+k phi(n))/e   ; we loop k as integer till satisfied the equation(start with k=1).
 - Finally we got d as our private key.
