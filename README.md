@@ -75,7 +75,7 @@ The method as follows :
 - After length digits of p or q found, we find all prime numbers(or candidates p) on [a,b], where a= 10^(m-1), b=(10^m)-1, where m is length digit of p. Example m=3, so p on the [100,999] with assume p & q got the same length digit.
 - If two factors have different length digit then we use the 2nd scenario where we decrease a as the left boundary to find candidates of p where a becomes a= 10^(m-1-g), g start from 1. Now a=10(2 digit), [a,b] becomes [10,99],and so on.  
 - We can use the Sieve of Atkin algorithm to find all prime numbers on a given interval.
-- We try the first scenario with assume p, q got the same length digit(it's usually used, because if one of the factor got shorter digit, easier to brake), and try others scenarios till found p(automatically found q also). We got all candidates for p.
+- We try the first scenario with assume p, q got the same length digit(it's usually used, because if one of the factor got shorter digit, easier to break), and try others scenarios till found p(automatically found q also). We got all candidates for p.
 - Check the right candidate use: if (n mod p)=0 then p found & find q using q=n/p.
 - We already have e, p, q.
 - d=(1+k phi(n))/e   ; we loop k as integer till satisfied the equation(start with k=1).
