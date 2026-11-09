@@ -5,8 +5,7 @@
 ![Pascal](https://img.shields.io/badge/language-Pascal-orange?logo=pascal)
 ![AES](https://img.shields.io/badge/Algorithm-AES-blue)
 ![RSA](https://img.shields.io/badge/Algorithm-RSA-green)
-![SHA](https://img.shields.io/badge/Hash-SHA256-orange)
-![SHA](https://img.shields.io/badge/Hash-SHA512-red)
+![SHA](https://img.shields.io/badge/Hash-MD5|SHA256|512-orange)
 
 # Cryptography
 
