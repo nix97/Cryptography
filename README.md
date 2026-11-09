@@ -1,4 +1,4 @@
-y![License](https://img.shields.io/github/license/nix97/Cryptography)
+![License](https://img.shields.io/github/license/nix97/Cryptography)
 ![Issues](https://img.shields.io/github/issues/nix97/Cryptography)
 ![Stars](https://img.shields.io/github/stars/nix97/Cryptography)
 ![Language](https://img.shields.io/badge/Language-C%23-239120?logo=c-sharp&logoColor=white)
@@ -77,6 +77,6 @@ The method as follows :
 - We can use the Sieve of Atkin algorithm to find all prime numbers on a given interval.
 - We try the first scenario with assume p, q got the same length digit(it's usually used, because if one of the factor got shorter digit, easier to break), and try others scenarios till found p(automatically found q also). We got all candidates for p.
 - Check the right candidate use: if (n mod p)=0 then p found & find q using q=n/p.
-- We already have e, p, q.
+- We already had e, p, q.
 - d=(1+k phi(n))/e   ; we loop k as integer till satisfied the equation(start with k=1).
 - Finally we got d as our private key.
