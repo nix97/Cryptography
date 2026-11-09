@@ -1,4 +1,4 @@
-![License](https://img.shields.io/github/license/nix97/Cryptography)
+y![License](https://img.shields.io/github/license/nix97/Cryptography)
 ![Issues](https://img.shields.io/github/issues/nix97/Cryptography)
 ![Stars](https://img.shields.io/github/stars/nix97/Cryptography)
 ![Language](https://img.shields.io/badge/Language-C%23-239120?logo=c-sharp&logoColor=white)
@@ -12,7 +12,8 @@
 
 ## 1. AES(Advance Encryption Standard)
 
-<p>This app is about Cryptography using AES(Advanced Encryption Standard) algorithm, build in Microsoft Visual Studio 2022.</p><br>
+<p>This app is about Cryptography using AES(Advanced Encryption Standard) algorithm, build in Microsoft Visual Studio 2022.</p>
+<br>
 The Key, IV(Initialization Vector) and Ciphertext in Base64 number system.<br>
 The key lengths or key size is 128 bit(AES-128), 192 bit(AES-192) and 256 bit(AES-256).<br>
 Using lib : --> using System.Security.Cryptography;
