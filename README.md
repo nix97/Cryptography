@@ -41,11 +41,11 @@ Implementation of RSA algorithm using Pascal (text base/terminal).
 
 ## 4. Nix Cryptography(RSA)
 
-Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
+> Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
 
 ### RSA :
 
-  On the RSA as asymmetric cryptography uses two different keys, e as public key/encrypt key(not secret) & d as private key/decrypt key(secret).
+> On the RSA as asymmetric cryptography uses two different keys, e as public key/encrypt key(not secret) & d as private key/decrypt key(secret).
 ### Formula:
 
 ### p . q = n ;
