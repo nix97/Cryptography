@@ -39,7 +39,7 @@ using System.Security.Cryptography;
 
 Implementation of RSA algorithm using Pascal (text base/terminal).
 
-## 4. RSA Lazarus (GUI)
+## 4. Nix Cryptography(RSA)
 
 Implementation of RSA algorithm using Lazarus 4.8 FPC 3.2.2.
 
