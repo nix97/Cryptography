@@ -96,7 +96,7 @@ coef 3 (digit 9-11), deg 3 (digit 12) and coef 4 (digit ,13-15), deg 4 (digit 16
 - Input ordinal number from character in ASCII to Polynomial F(x), so we got value as constant. Example ordinal(A)=65, so got
 value of constant on a given ordinal of char.
 - Thus $F(x) = 495(65)^{7}+578(65)^{3}+  105(65)^{3}+627(65)=2426602993469002$<br><br> 
-- Or 495(x)^{7}+578(x)^{3}+  105(x)^{3}+627(x)-2426602993469002=0$\<br>
+- Or 495(x)^{7}+578(x)^{3}+  105(x)^{3}+627(x)-2426602993469002=0$<br>
 <br>
 - Now we have a Finding-Root problem.
 - In this case, I use Newton-Raphson method to solve the problem.
