@@ -63,7 +63,7 @@ The private key represent as (n,d) and p, q is secret also.
  
 ### SLIMMING BRUTE FORCE :
 
-   The idea is to find p first as one of the prime factors, then get q using q=n/p.\
+ The idea is to find p first as one of the prime factors, then get q using q=n/p.\
 The method as follows :
 - On this app, the lower boundary required a minimum 3 digits decimal.
 - Check n, Eliminate if last digit n is 2 or 5(because there is no composite number as a product of multiply two prime numbers.
@@ -82,6 +82,9 @@ The method as follows :
 
 ## 5.Cryptography using Newton-Raphson method as Finding Root of Polynomial 
 
+On folder CryptoRoot.
+Build on  Lazarus 4.8 FPC 3.2.2.
+
 - Using single key 16 digits decimal.
 - Polynomial with 4 terms as follows:
 $F(x) = c_1(x)^{d1}+c_2(x)^{d2}+  c_3(x)^{d3}+c_4(x)^{d4}$<br>
@@ -92,13 +95,17 @@ coef 3 (digit 9-11), deg 3 (digit 12) and coef 4 (digit ,13-15), deg 4 (digit 16
   $F(x) = 495(x)^{7}+578(x)^{3}+  105(x)^{3}+627(x)$<br>
 - Input ordinal number from character in ASCII to Polynomial F(x), so we got value as constant. Example ordinal(A)=65, so got
 value of constant on a given ordinal of char.
-- Thus $F(x) = 495(x)^{7}+578(x)^{3}+  105(x)^{3}+627(x)=2426602993469002$<br>  
+- Thus $F(x) = 495(65)^{7}+578(65)^{3}+  105(65)^{3}+627(65)=2426602993469002$<br>  
 - Or 495(x)^{7}+578(x)^{3}+  105(x)^{3}+627(x)-2426602993469002=0$  
-- Now we have a Finding-Root problem.  In this case, I use Newton-Raphson method to solve the problem.
-- As the final result we had the root in the ordinal number after using Newton-Raphson method.  In the example above the root is 65 (char ‘A’ ).
-- The same way, we can apply to the message which is the string of chars.  The others are just String operations..  To view purposes, decimal string encoded to Base64 on menu Encryption.  Next step chipertext Base64 format reverse back to decimal string on menu Decryption, and find all the roots as constant of
-each characters.
-- Finally every single constant convert to characters again & we got the message.  -- That’s it, that’s all.
-  <br>
-Build on  Lazarus 4.8 FPC 3.2.2.
+- Now we have a Finding-Root problem.
+- In this case, I use Newton-Raphson method to solve the problem.
+- As the final result we had the root in the ordinal number after using Newton-Raphson method.
+- In the example above the root is 65 (char ‘A’ ).
+- The same way, we can apply to the message which is the string of chars.
+- The others are just String operations.
+- To view purposes, decimal string encoded to Base64 on the menu Encryption. 
+- Next step chipertext Base64 format reverse back to decimal string on menu Decryption, and find all the roots as constant of each characters.
+- Finally every single constant convert to characters again & we got the message.
+- That’s it, that’s all.
+
 
