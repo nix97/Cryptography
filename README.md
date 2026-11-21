@@ -103,8 +103,9 @@ value of constant on a given ordinal of char.
 - In this case, I use Newton-Raphson method to solve the problem.
 - As the final result we had the root in the ordinal number after using Newton-Raphson method.
 - In the example above the root is 65 (char ‘A’ ).
-- The same way, we can apply to the message which is the string of chars.
-- The others are just String operations.
+- The same way, we can apply to the message that is the string of chars and all the constants of each char to be stringing also(on the menu encryption).
+-After got the decimal strings of consts as chipertext, we add marker between each const on the form of decimal also. So we knew, every single const when get on menu decryption. 
+- To make marker, we can define Function F(x), as we liked. In my case use 5 digit every marker to avoid collision with const when use 'copy' as string func.
 - To view purposes, decimal string encoded to Base64 on the menu Encryption. 
 - Next step chipertext Base64 format reverse back to decimal string on menu Decryption, and find all the roots as constant of each characters.
 - Finally every single constant convert to characters again & we got the message.
