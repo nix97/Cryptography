@@ -1,0 +1,271 @@
+object FormCrypto: TFormCrypto
+  Left = 255
+  Height = 565
+  Top = 250
+  Width = 846
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Nix Cryptography using Finding-Root ( Newton-Raphson )'
+  ClientHeight = 565
+  ClientWidth = 846
+  Position = poDesktopCenter
+  LCLVersion = '4.8.0.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 565
+    Top = 0
+    Width = 800
+    ActivePage = TSencrypt
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabIndex = 0
+    TabOrder = 0
+    object TSencrypt: TTabSheet
+      Caption = 'Encryption'
+      ClientHeight = 537
+      ClientWidth = 792
+      object Label1: TLabel
+        Left = 16
+        Height = 15
+        Top = 16
+        Width = 27
+        Caption = 'Key :'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object EditKey: TEdit
+        Left = 48
+        Height = 23
+        Top = 16
+        Width = 216
+        ParentFont = False
+        TabOrder = 0
+      end
+      object Label2: TLabel
+        Left = 16
+        Height = 15
+        Top = 65
+        Width = 54
+        Caption = 'Message :'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object MemoMessage: TMemo
+        Left = 16
+        Height = 146
+        Top = 96
+        Width = 448
+        ParentFont = False
+        ScrollBars = ssAutoVertical
+        TabOrder = 6
+      end
+      object Label3: TLabel
+        Left = 16
+        Height = 15
+        Top = 344
+        Width = 66
+        Caption = 'Chipertext :'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object MemoChiper: TMemo
+        Left = 16
+        Height = 152
+        Top = 368
+        Width = 496
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssAutoVertical
+        TabOrder = 7
+      end
+      object ButRunEnc: TButton
+        Left = 16
+        Height = 33
+        Top = 272
+        Width = 75
+        Caption = 'Run'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        OnClick = ButRunEncClick
+      end
+      object ButtonClear: TButton
+        Left = 120
+        Height = 33
+        Top = 272
+        Width = 75
+        Caption = 'Clear'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 2
+        OnClick = ButtonClearClick
+      end
+      object Label4: TLabel
+        Left = 488
+        Height = 15
+        Top = 16
+        Width = 32
+        Caption = 'Help :'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Memo2: TMemo
+        Left = 488
+        Height = 208
+        Top = 40
+        Width = 288
+        Lines.Strings = (
+          '     Cryptography using Newton-Raphson method as Finding Root'
+          'of Polynomial'
+          ''
+          '-Using single key 16 digits decimal.'
+          ''
+          '-Polynomial with 4 terms. '
+          'F(x) = c1*(x)^d1 + c2*(x)^d2 + c3*(x)^d3 + c4*(x)^d4'
+          ''
+          '-Position digit decimal on key, from 1 to 16, coefficient 1(digit 1-3), degree 1(digit 4), coef 2(digit 5-7), degree 2(digit 8),  coef 3(digit 9-11), degree 3(digit 12) and coef 4(digit ,13-15), degree 4(digit 16).'
+          '-Can use any 16 digit decimal, e.g 3925194768015297'
+          '-Input ordinal number from character in ASCII to Polynomial F(x), so we got value as constant. Example  ord(A)=65, so got value of const on a given ordinal of char.'
+          '-Thus  c1*(x)^d1 + c2*(x)^d2 + c3*(x)^d3 + c4*(x)^d4 = C ; C is const.'
+          '  or  c1*(x)^d1 + c2*(x)^d2 + c3*(x)^d3 + c4*(x)^d4 - C = 0 . '
+          ''
+          '-Now we have a Finding-Root problem.'
+          '-In this case, I use Newton-Raphson method to solve the problem.'
+          '-As the final result we had the root in the ordinal number after using Newton-Raphson method.'
+          ' In the example above the root is 65(char A).'
+          '-The same way, we can apply to the message that is the string of chars.'
+          '-The others are just String operations..'
+          '-To view purposes, decimal string encodeded to Base64 on menu Encryption.'
+          '- Finally chiper Base64 text format reverse back to decimal string on menu Decryption, and solve all the roots problem'
+          '-That’s it that’s all.'
+          ''
+          'How to use:'
+          '-Just click an example on the menu Eecryption & run.'
+          '-Copy & paste key & chipertext to menu Decryption & run.'
+          ''
+          'Notes:'
+          '-It''s open sourcecode, feel free to use & modify. '
+          '-still got short message capacity.'
+        )
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssAutoVertical
+        TabOrder = 8
+      end
+      object ButtonExample: TButton
+        Left = 226
+        Height = 33
+        Top = 272
+        Width = 78
+        Caption = 'Example'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 3
+        OnClick = ButtonExampleClick
+      end
+      object ButAbout: TButton
+        Left = 720
+        Height = 25
+        Top = 264
+        Width = 56
+        Caption = 'about'
+        TabOrder = 9
+        OnClick = ButAboutClick
+      end
+      object ButCopyChiper: TButton
+        Left = 536
+        Height = 25
+        Top = 368
+        Width = 56
+        Caption = 'Copy'
+        TabOrder = 5
+        OnClick = ButCopyChiperClick
+      end
+      object ButCopyKey: TButton
+        Left = 288
+        Height = 25
+        Top = 16
+        Width = 56
+        Caption = 'Copy'
+        TabOrder = 4
+        OnClick = ButCopyKeyClick
+      end
+    end
+    object TSdecrypt: TTabSheet
+      Caption = 'Decryption'
+      ClientHeight = 537
+      ClientWidth = 792
+      object ButRunDec: TButton
+        Left = 16
+        Height = 33
+        Top = 264
+        Width = 75
+        Caption = 'Run'
+        TabOrder = 2
+        OnClick = ButRunDecClick
+      end
+      object Label5: TLabel
+        Left = 16
+        Height = 15
+        Top = 16
+        Width = 27
+        Caption = 'Key :'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object EditKeyDec: TEdit
+        Left = 48
+        Height = 23
+        Top = 16
+        Width = 216
+        ParentFont = False
+        TabOrder = 0
+      end
+      object MemoChiperDec: TMemo
+        Left = 16
+        Height = 152
+        Top = 88
+        Width = 448
+        ParentFont = False
+        ScrollBars = ssAutoVertical
+        TabOrder = 1
+      end
+      object Label6: TLabel
+        Left = 16
+        Height = 15
+        Top = 64
+        Width = 66
+        Caption = 'Chipertext :'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label7: TLabel
+        Left = 16
+        Height = 15
+        Top = 320
+        Width = 54
+        Caption = 'Message :'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object MemoMessageDec: TMemo
+        Left = 16
+        Height = 146
+        Top = 351
+        Width = 448
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssAutoVertical
+        TabOrder = 4
+      end
+      object ButClearDec: TButton
+        Left = 120
+        Height = 33
+        Top = 264
+        Width = 75
+        Caption = 'Clear'
+        TabOrder = 3
+        OnClick = ButClearDecClick
+      end
+    end
+  end
+end

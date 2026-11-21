@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="NixCrypto.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="7"/>
+        <UsageCount Value="79"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unitcrypto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCrypto"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="393"/>
+        <CursorPos Y="403"/>
+        <UsageCount Value="79"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="H:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="4002"/>
+        <CursorPos Y="4010"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="90" Column="24" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="264" Column="42" TopLine="252"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="91" Column="18" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="95" Column="55" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="99" Column="38" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="269" Column="35" TopLine="254"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="329" Column="32" TopLine="318"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="98" Column="49" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="95" Column="8" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="270" Column="11" TopLine="257"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="279" Column="2" TopLine="270"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="90" Column="20" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="97" Column="15" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="90" Column="20" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="97" Column="15" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="255" Column="42" TopLine="253"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="431" TopLine="415"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="266" Column="15" TopLine="258"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="267" Column="21" TopLine="257"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="97" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="259" Column="14" TopLine="251"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="96" Column="4" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="189" Column="4" TopLine="178"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="279" Column="2" TopLine="270"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="259" Column="12" TopLine="252"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="95" Column="2" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="96" Column="14" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="95" Column="4" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="85" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="unitcrypto.pas"/>
+        <Caret Line="192" TopLine="192"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
