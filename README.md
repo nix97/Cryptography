@@ -79,3 +79,7 @@ The method as follows :
 - We already had e, p, q.
 - d=(1+k phi(n))/e   ; we loop k as integer till satisfied the equation(start with k=1).
 - Finally we got d as our private key.
+
+## 5. Nix Cryptography(Root)
+
+> Build on  Lazarus 4.8 FPC 3.2.2.
