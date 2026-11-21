@@ -107,7 +107,7 @@ value of constant on a given ordinal of char.
 - After got the decimal strings of consts as chipertext, we add marker between each const on the form of decimal also. So we knew, every single const when get on menu decryption. 
 - To make marker, we can define Function F(x), as we liked. In my case use 5 digit every marker to avoid collision with const when use 'copy' as string func.
 - To view purposes, decimal string encoded to Base64 on the menu Encryption. 
-- Next step chipertext Base64 format reverse back to decimal string on menu Decryption, and find all the roots as constant of each characters.
+- Next step chipertext Base64 format reverse back to decimal string on menu Decryption, get every consts between marker and find all the roots as ordinal of each characters.
 - Finally every single constant convert to characters again & we got the message.
 - That’s it, that’s all.
 
