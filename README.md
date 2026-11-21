@@ -81,16 +81,22 @@ The method as follows :
 - Finally we got d as our private key.
 
 ## 5.Cryptography using Newton-Raphson method as Finding Root of Polynomial 
-on edit...
+
 - Using single key 16 digits decimal.
 - Polynomial with 4 terms as follows:
-$F(x) = c1(x)^{d1}+
-; c : coefficient ; d : degree  Position of digit decimal on key, from 1 to 16, coefficient 1 (digit 1-3), degree 1 (digit 4), coef 2 (digit 5-7), deg 2 (digit 8),
-coef 3 (digit 9-11), deg 3 (digit 12) and coef 4 (digit ,13-15), deg 4 (digit 16).  Can use any 16 digit decimal, e.g key = 4957578310536271.  So, equation becomes  Input ordinal number from character in ASCII to Polynomial F(x), so we got value as constant. Example ordinal(A)=65, so got
-value of constant on a given ordinal of char.  Thus  Or  Now we have a Finding-Root problem.  In this case, I use Newton-Raphson method to solve the problem.  As the final result we had the root in the ordinal number after using Newton-Raphson method.  In the example above the root is 65 (char ‘A’ ).  The same way, we can apply to the message which is the string of chars.  The others are just String operations..  To view purposes, decimal string encoded to Base64 on menu Encryption.  Next step chipertext Base64 format reverse back to decimal string on menu Decryption, and find all the roots as constant of
-each characters.  Finally every single constant convert to characters again & we got the message.  That’s it, that’s all.
-by Lukas Setiawan
-lukassetiawan@yahoo.com
-Nov 19, 2026
+$F(x) = c_1(x)^{d1}+c_1(x)^{d1}+  c_1(x)^{d1}+c_1(x)^{d1}$
+where c : coefficient ; d : degree  ------ Position of digit decimal on key, from 1 to 16, coefficient 1 (digit 1-3), degree 1 (digit 4), coef 2 (digit 5-7), deg 2 (digit 8),
+coef 3 (digit 9-11), deg 3 (digit 12) and coef 4 (digit ,13-15), deg 4 (digit 16).  - Can use 16 digit decimal, e.g key = 4957578310536271.
+- So, equation becomes
+- Input ordinal number from character in ASCII to Polynomial F(x), so we got value as constant. Example ordinal(A)=65, so got
+value of constant on a given ordinal of char.
+- Thus 
+- Or
+- Now we have a Finding-Root problem.  In this case, I use Newton-Raphson method to solve the problem.
+- As the final result we had the root in the ordinal number after using Newton-Raphson method.  In the example above the root is 65 (char ‘A’ ).
+- The same way, we can apply to the message which is the string of chars.  The others are just String operations..  To view purposes, decimal string encoded to Base64 on menu Encryption.  Next step chipertext Base64 format reverse back to decimal string on menu Decryption, and find all the roots as constant of
+each characters.
+- Finally every single constant convert to characters again & we got the message.  -- That’s it, that’s all.
+  <br>
+Build on  Lazarus 4.8 FPC 3.2.2.
 
-> Build on  Lazarus 4.8 FPC 3.2.2.
