@@ -8,7 +8,6 @@
 ![SHA](https://img.shields.io/badge/Hash-MD5|SHA256|512-orange)
 ![GitHub release downloads](https://img.shields.io/github/downloads/nix97/Cryptography/latest/total)
 
-
 # Cryptography
 
 ## 1. AES(Advance Encryption Standard)
