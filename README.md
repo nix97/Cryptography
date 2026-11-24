@@ -110,7 +110,6 @@ value of constant on a given ordinal of char.
 - To view purposes, decimal string encoded to Base64 on the menu Encryption. 
 - Next step chipertext Base64 format reverse back to decimal string on menu Decryption, get every consts between marker and find all the roots as ordinal of each characters.
 - Finally every single constant convert to characters again & we got the message.
-- That’s it, that’s all.
-- Notes: try max iteration=50 as average, instead 200, make a test on all char that we usually typing from ord 32(space char) till 126(~). 
+- Notes: try max iteration=50 as average, instead 200, make a test on all char that we usually typing from ord 32(space char) till 126(~). I use p0=50 based on range[32,126], approx midlle position is 50 as single starting point on the Newton-Raphson method.
 
 
