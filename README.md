@@ -102,7 +102,7 @@ value of constant on a given ordinal of char.
 <br><br>
 - Now we have a Finding-Root problem.
 - In this case, I use Newton-Raphson method to solve the problem. Equation as follows:
-###      $p_i=p_{i-1}\frac{f(p_{i-i})}{f'(p_{i-i})}$
+### &ensp $p_i=p_{i-1}\frac{f(p_{i-i})}{f'(p_{i-i})}$
   where i=1,2,3,....
 - As the final result we had the root in the ordinal number after using Newton-Raphson method.
 - In the example above the root is 65 (char ‘A’ ).
