@@ -87,9 +87,9 @@ On folder CryptoRoot.
 Build on  Lazarus 4.8 FPC 3.2.2.
 
 - Using single key 16 digits decimal.
-- Polynomial with 4 terms as follows:<br>
+- Polynomial with 4 terms as follows:<br><br>
 $F(x) = c_1(x)^{d1}+c_2(x)^{d2}+  c_3(x)^{d3}+c_4(x)^{d4}$ <br>
-$where c : coefficient ; d : degree$<br><br>
+$where \ c : coefficient ; d : degree$<br><br>
 - Position of digit decimal on key, from 1 to 16, coefficient 1 (digit 1-3), degree 1 (digit 4), coef 2 (digit 5-7), deg 2 (digit 8),
 coef 3 (digit 9-11), deg 3 (digit 12) and coef 4 (digit ,13-15), deg 4 (digit 16).  - Can use 16 digit decimal, e.g key = 4957578310536271.
 - So, equation becomes:
