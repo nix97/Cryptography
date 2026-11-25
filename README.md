@@ -113,5 +113,6 @@ $\ \ \ \ \ \ \ where \ i=1,2,3,....$
 - Next step chipertext Base64 format reverse back to decimal string on menu Decryption, get every consts between marker and find all the roots as ordinal of each characters.
 - Finally every single constant convert to characters again & we got the message.
 - Notes: try max iteration=50 as average, instead 200. All char that we usually typing from ord 32(space char) till 126(~), so i use p0=50 based on range[32,126], approx midlle position is 50 as single starting point on the Newton-Raphson method.
+If you like, to makes more scrambled add shift row on the decimal string on encryption and reverse shift row on decryption. Shift row can use math function or just shifting index position.
 
 
